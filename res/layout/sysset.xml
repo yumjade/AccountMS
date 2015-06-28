@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+    android:stretchColumns="0,3" >
+
+    <!-- 第一行 -->
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView />
+
+        <TextView
+            android:id="@+id/tvsetnickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="帐    号："
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/txtsetnickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="200px"
+            android:textSize="25dp" />
+
+        <TextView />
+    </TableRow>
+    <!-- 第二行 -->
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView />
+
+        <TextView
+            android:id="@+id/tvsetpwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密    码："
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/txtsetpwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:textSize="25dp" />
+
+        <TextView />
+    </TableRow>
+    <!-- 第3行 -->
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView />
+
+        <Button
+            android:id="@+id/btnSet"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="设置" />
+
+        <Button
+            android:id="@+id/btnsetCancel"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="取消" />
+
+        <TextView />
+    </TableRow>
+
+</TableLayout>
